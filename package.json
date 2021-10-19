@@ -1,0 +1,17 @@
+{
+  "name": "ap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ap": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "./bin/index.js parse json sample.json -k name"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.2.0"
+  }
+}
