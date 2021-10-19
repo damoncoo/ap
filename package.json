@@ -1,7 +1,6 @@
 {
-  "name": "ap",
+  "name": "@damoncoo/ap",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "bin": {
     "ap": "./bin/index.js"
@@ -9,9 +8,24 @@
   "scripts": {
     "test": "./bin/index.js parse json sample.json -k name"
   },
-  "author": "",
+  "author": "Damon Cheng",
   "license": "ISC",
   "dependencies": {
     "commander": "^8.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damoncoo/ap.git"
+  },
+  "keywords": [
+    "ap",
+    "tool",
+    "damoncoo"
+  ],
+  "bugs": {
+    "url": "https://github.com/damoncoo/ap/issues"
+  },
+  "homepage": "https://github.com/damoncoo/ap#readme",
+  "description": ""
 }
